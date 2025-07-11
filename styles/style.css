@@ -282,36 +282,37 @@ body {
 }
 
 /* Get in touch section */
-.contact-us-section {
+/* Contact Us Area */
+.contact-us-area {
     display: flex;
     gap: 2rem;
     margin: 0 150px 115px 150px;
 }
 
-.contact-us-section h1 {
+.contact-us-area h1 {
     font-family: "Raleway", sans-serif;
     font-size: 90px;
     font-weight: bold;
     color: #000000;
 }
 
-.contact-us-section h1,
-.contact-us-section form {
+.contact-us-area h1,
+.contact-us-area form {
     flex: 1;
 }
 
-.contact-us-section form {
+.contact-us-area form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.contact-us-section .form-field {
+.contact-us-area .form-element {
     margin-bottom: 1rem;
 }
 
-.form-field input,
-.form-field textarea {
+.form-element input,
+.form-element textarea {
     width: 100%;
     padding: 32px 20px;
     border-radius: 10px;
@@ -324,11 +325,16 @@ body {
     font-size: 20px;
 }
 
-.form-field label {
+.form-element label {
     font-family: "Inter", sans-serif;
     font-weight: 500;
 }
 
-.contact-button {
-    width: 400 px;
+.contact-submit-btn {
+    width: 110%;
+    background-color: #4E47FF;
+    color: #F5F8FF;
+    height: 50px;
+    border-radius: 10px;
 }
+.contact-submit-btn:hover:
