@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Css for nav,buttons and hero section */
 nav {
     display: flex;
     justify-content: space-between;
