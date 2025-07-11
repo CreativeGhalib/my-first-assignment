@@ -103,9 +103,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.gittu-btn {
-   ;
-}
+
 
 
 /* styling action */
@@ -281,19 +279,18 @@ body {
     margin-top: 20px;
 }
 
-/* Get in touch section */
-/* Contact Us Area */
-.contact-us-area {
+
+/* Contact  Area */.contact-us-area {
+    margin: 0 150px 115px 150px;
     display: flex;
     gap: 2rem;
-    margin: 0 150px 115px 150px;
 }
 
 .contact-us-area h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 90px;
-    font-weight: bold;
     color: #000000;
+    font-weight: bold;
+    font-size: 90px;
+    font-family: "Raleway", sans-serif;
 }
 
 .contact-us-area h1,
@@ -302,9 +299,9 @@ body {
 }
 
 .contact-us-area form {
+    gap: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .contact-us-area .form-element {
@@ -313,28 +310,70 @@ body {
 
 .form-element input,
 .form-element textarea {
-    width: 100%;
-    padding: 32px 20px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0.5);
-    background-color: #FFFFFF;
-    margin-top: 10px;
-    border: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: none;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 32px 20px;
+    width: 100%;
 }
 
 .form-element label {
-    font-family: "Inter", sans-serif;
     font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
 
 .contact-submit-btn {
-    width: 110%;
-    background-color: #4E47FF;
-    color: #F5F8FF;
-    height: 50px;
     border-radius: 10px;
+    height: 50px;
+    color: #F5F8FF;
+    background-color: #4E47FF;
+    width: 110%;
 }
-.contact-submit-btn:hover:
+
+.contact-submit-btn:hover {
+    background-color: #757575;
+}
+/* Footer Styles */
+.footer-base {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 455px;
+}
+
+.footer-brand-logo {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+.footer-text-content {
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+    width: 100%;
+}
+
+.footer-navigation-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.footer-navigation-links li {
+    margin-right: 48px;
+}
+
+.footer-navigation-links a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
