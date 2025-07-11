@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.container {
+    max-width:  1440px;
+    margin:  0 auto;
+    padding: 22x;
+}
+.hero {
+    text-align: center;
+}
+.focus {
+    background-color:#4E47FF ;
+}
