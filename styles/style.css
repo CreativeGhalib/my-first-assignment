@@ -71,6 +71,7 @@ body {
     color: white;
     background-color: #4E47FF;
     border: none;
+     cursor: pointer;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
     color: white;
@@ -86,6 +87,7 @@ body {
     border-radius: 5px;
     border: none;
     font-family: "Raleway", sans-serif;
+     cursor: pointer;
 }
 
 .action-button {
@@ -93,12 +95,18 @@ body {
     width: 229px;
     height: 48px;
     font-size: 16px;
+     cursor: pointer;
     color: white;
     background-color: #4E47FF;
     border: none;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
 }
+
+.gittu-btn {
+   ;
+}
+
 
 /* styling action */
 
@@ -175,4 +183,152 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin: 0;
+}
+/* user feedbacks section */
+
+.user-reviews-section {
+    margin: 0 150px 135px 150px;
+}
+
+.review-main-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-user-reviews {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card {
+    flex: 1;
+    padding: 24px;
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 14px;
+}
+
+.review-title,
+.review-subtitle {
+    color: #1E1E1E;
+}
+
+.reviewer-container {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-image {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: block;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding: 0;
+}
+
+.reviewer-details h4 {
+    margin: 0;
+}
+
+.reviewer-name {
+    color: #757575;
+}
+
+.review-date {
+    color: #B3B3B3;
+}
+
+/* Free sign up styles */
+.free-registration-section {
+    margin: 0 150px 90px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 70px 150px;
+    border-radius: 14px;
+}
+
+.free-registration-section .registration-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.free-registration-section .registration-subheading {
+    margin: 20px auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.registration-button {
+    padding: 12px 36px;
+}
+
+.free-registration-section img {
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+/* Get in touch section */
+.contact-us-section {
+    display: flex;
+    gap: 2rem;
+    margin: 0 150px 115px 150px;
+}
+
+.contact-us-section h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contact-us-section h1,
+.contact-us-section form {
+    flex: 1;
+}
+
+.contact-us-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-us-section .form-field {
+    margin-bottom: 1rem;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 32px 20px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form-field label {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.contact-button {
+    width: 400 px;
 }
