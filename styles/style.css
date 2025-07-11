@@ -18,48 +18,46 @@ body {
     max-width: 1440px;
     background-color: #F5F8FF;
 }
-
 /* navigation section */
-.heading {
-    background-image: url(../assets/hero.png);
-    max-width: 1440px;
-    max-height: 698px;
-}
-
 .logo {
-    font-family: "Inter", sans-serif;
-    width: 99px;
-    height: 51px;
-    font-size: 34px;
-    font-weight: 900;
     color: #4E47FF;
+    font-weight: 900;
+    font-size: 34px;
+    height: 51px;
+    width: 99px;
+    font-family: "Inter", sans-serif;
 }
 
 .nav {
-    margin: 0 150px;
-    max-width: 1140px;
-    max-height: 151px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
+    max-height: 151px;
+    margin: 0 150px;
+}
+
+.heading {
+    max-height: 698px;
+    max-width: 1440px;
+    background-image: url(../assets/hero.png);
 }
 
 /* banner section */
 .title-banner {
-    margin: 0 267.8px;
-    align-items: center;
     padding-bottom: 152px;
+    align-items: center;
+    margin: 0 267.8px;
 }
 
 .banner-heading {
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    margin-top: 158px;
+    font-size: 65px;
     max-width: 905px;
     max-height: 152px;
     font-weight: bold;
-    font-size: 65px;
-
+    text-align: center;
+    margin-top: 158px;
+    font-family: "Raleway", sans-serif;
 }
 
 /* button section */
